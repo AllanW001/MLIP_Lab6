@@ -23,8 +23,6 @@ pipeline {
                 pytest --disable-warnings
 
                 echo 'Tests executed successfully'
-                // echo 'pytest not runned'
-                // exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
